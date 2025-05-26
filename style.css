@@ -106,12 +106,29 @@
         height: 200px;
     }
 }
-
-@media (max-width: 690px){
+@media (max-width: 790px){
     .img{
         float: none;
+        width: 100%;
+        background-size: cover;
+        background-position-y: -100px;
+        background-repeat: no-repeat;
+    
+        
     }
 }
+@media (max-width: 592px){
+    .img{
+        float: none;
+        width: 100%;
+        background-size: cover;
+        background-position-y: -50px;
+        background-repeat: ;
+    
+        
+    }
+}
+
 
     
     @keyframes hh {
