@@ -88,6 +88,12 @@
     animation-iteration-count: infinite;
     animation-duration: 7s;
 }
+
+@media (min-width: 865px){
+    .LL{
+        margin-top: 250px;
+    }
+}
     
 @media (max-width: 890px){
     .LL{
